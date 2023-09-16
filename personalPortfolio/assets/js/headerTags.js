@@ -12,6 +12,10 @@ const tags = [
         name: "Node"
     },
     {
+        icon: `<i class="fa-solid fa-terminal fa-sm mr-1 text-orange-500"></i>`,
+        name: "MERN"
+    },
+    {
         icon: `<i class="fa-solid fa-people-group fa-sm mr-1 text-green-500"></i>`,
         name: "Collaborate"
     }

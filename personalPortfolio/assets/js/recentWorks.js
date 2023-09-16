@@ -1,7 +1,7 @@
 const recentWorks = [
     {
         title: "Twitter Clone",
-        description: "Functionalities of Sign in, Sign Up; Log in, Log out; Creation, Edition, Deletion of tweets; Following/ Unfollowing of users and Timelin",
+        description: "Twitter clone with functionalities of Sign in, Sign Up; Log in, Log out; Creation, Edition, Deletion of tweets; Following/ Unfollowing of users and ",
         techs: ["MongoDB", "Express", "React","Node"],
         img: "/images/logo512.png"
     },
@@ -13,7 +13,7 @@ const recentWorks = [
     },
     {
         title: "Weather App",
-        description: "A Web Page where from we can get details about the real time weather conditions of any city around the world",
+        description: "A Web Page where from we can get details about the real time weather conditions of any city around the world.",
         techs: ["MongoDB", "Express", "React","Node"],
         img: "/images/weather.jpg"
     },
@@ -38,7 +38,7 @@ const html = recentWorks.map(work =>
         <div class="my-4 flex flex-wrap">
             ${getTech(work.techs)}
         </div>
-        <a href="https://github.com/nchdatta/personal-portfolio" target="_blank"
+        <a href="https://github.com/sabyasachi-894/Twitter-Clone" target="_blank"
             class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"

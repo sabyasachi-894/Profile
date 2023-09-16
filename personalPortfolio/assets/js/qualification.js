@@ -1,8 +1,8 @@
 const qualifications = [
     {
-        title: "B.Tech in Computer Science & Engineering (CSE)",
+        title: "BTech in Computer Science & Engineering (CSE)",
         year: 2024,
-        description: "I will be completing 4 years engineering degree with major in Computer Science in 2024.",
+        description: "Will be completing four years bechelor degree from a reputed institute",
         institute: {
             name: "Indian Institute of Information Technology, Kalyani",
             shortName: "IIIT Kalyani",
@@ -11,12 +11,12 @@ const qualifications = [
     },
     {
         title: "Indian School Certificate",
-        year: 2019,
-        description: "Achieved two years higher secondary degree from Science.",
+        year: 2024,
+        description: "Achieved 2 years higher secondary degree",
         institute: {
             name: "Holy Cross School",
             shortName: "HCS",
-            duration: "July 2017 - Jun 2019"
+            duration: "2017 - 2019"
         }
     },
 ];
@@ -29,11 +29,7 @@ const html = qualifications.map(quali =>
         </div>
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${quali.year}</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">${quali.title}
-                <a href="https://web.programming-hero.com/" target="_blank" class="ml-3">
-                    <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
-                </a>
-            </h3>
+            
         </div>
         <p class="mb-3 text-base font-normal text-gray-800 dark:text-gray-400">${quali.description}</p>
         <p class="text-base font-light text-gray-800 dark:text-gray-400">
